@@ -27,7 +27,7 @@
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="#">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="~/home/index/">
                 <div class="sidebar-brand-icon rotate-n-15">
                     <i class="fas fa-laugh-wink"></i>
                 </div>
@@ -370,25 +370,11 @@
                     </ul>
 
                 </nav>
-                <div class="container-fluid">
-                    @RenderBody()
-
+                @RenderBody()
                 
-            <!-- End of Main Content -->
-            <!-- Footer -->
-            <footer class="sticky-footer bg-white">
-                <div class="container my-auto">
-                    <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; Your Website 2021</span>
-                    </div>
-                </div>
-            </footer>
-            <!-- End of Footer -->
-
-        </div>
-        <!-- End of Content Wrapper -->
-
     </div>
+  
+
     <!-- End of Page Wrapper -->
     <!-- Scroll to Top Button-->
     <a class="scroll-to-top rounded" href="#page-top">
@@ -435,9 +421,27 @@
   
 
     <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2023 - InStock - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
+        
+               @* <div class="container-fluid">
+                    <!-- End of Main Content -->
+                    <!-- Footer -->
+                    <footer class="sticky-footer bg-white">
+                        <div class="container my-auto">
+                            <div class="copyright text-center my-auto">
+                                <span>Copyright &copy; Your Website 2023</span>
+                            </div>
+                        </div>
+                         <div class="container">
+                            &copy; 2023 - InStock - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                         </div>
+                    </footer>
+                    <!-- End of Footer -->
+
+                </div>
+                <!-- End of Content Wrapper -->*@
+                <div class="container-fluid">
+                    &copy; 2023 - InStock - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                </div>
     </footer>
     <script src="~/Theme//lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
