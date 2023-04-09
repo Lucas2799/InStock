@@ -19,7 +19,6 @@
     <None Include="wwwroot\Theme\js\demo\chart-area-demo.js" />
     <None Include="wwwroot\Theme\js\demo\chart-bar-demo.js" />
     <None Include="wwwroot\Theme\js\demo\chart-pie-demo.js" />
-    <None Include="wwwroot\Theme\js\demo\datatables-demo.js" />
     <None Include="wwwroot\Theme\js\sb-admin-2.js" />
     <None Include="wwwroot\Theme\js\sb-admin-2.min.js" />
     <None Include="wwwroot\Theme\scss\navs\_global.scss" />
@@ -147,12 +146,6 @@
     <None Include="wwwroot\Theme\vendor\chart.js\Chart.bundle.min.js" />
     <None Include="wwwroot\Theme\vendor\chart.js\Chart.js" />
     <None Include="wwwroot\Theme\vendor\chart.js\Chart.min.js" />
-    <None Include="wwwroot\Theme\vendor\datatables\dataTables.bootstrap4.css" />
-    <None Include="wwwroot\Theme\vendor\datatables\dataTables.bootstrap4.js" />
-    <None Include="wwwroot\Theme\vendor\datatables\dataTables.bootstrap4.min.css" />
-    <None Include="wwwroot\Theme\vendor\datatables\dataTables.bootstrap4.min.js" />
-    <None Include="wwwroot\Theme\vendor\datatables\jquery.dataTables.js" />
-    <None Include="wwwroot\Theme\vendor\datatables\jquery.dataTables.min.js" />
     <None Include="wwwroot\Theme\vendor\fontawesome-free\attribution.js" />
     <None Include="wwwroot\Theme\vendor\fontawesome-free\css\all.css" />
     <None Include="wwwroot\Theme\vendor\fontawesome-free\css\all.min.css" />
